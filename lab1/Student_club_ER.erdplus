@@ -1,0 +1,669 @@
+{
+  "diagramType": 1,
+  "data": {
+    "nodes": [
+      {
+        "id": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Entity",
+        "position": {
+          "x": -303.6330629972978,
+          "y": 135.04272643346513
+        },
+        "data": {
+          "label": "Clubs",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "329b0d2b-652d-4373-8b91-0f2f2ae47f7a",
+        "type": "Entity",
+        "position": {
+          "x": -33,
+          "y": 172
+        },
+        "data": {
+          "label": "Students",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "791fc266-7c8e-40ea-b316-fb7d701a700c",
+        "parentId": "329b0d2b-652d-4373-8b91-0f2f2ae47f7a",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "StudentID",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "6f806301-a941-42b7-8aa4-86a7be76716c",
+        "parentId": "329b0d2b-652d-4373-8b91-0f2f2ae47f7a",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "StudentName",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "922fd0e5-3df5-4104-a236-bf239b8b76cd",
+        "parentId": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "ClubID",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "abd3c8e1-731a-4c10-8e09-8f23539c82f9",
+        "parentId": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "ClubName",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "type": "Entity",
+        "position": {
+          "x": -124.6632005303999,
+          "y": 433.39138412917566
+        },
+        "data": {
+          "label": "ClubMembership",
+          "type": "Weak",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "6db34dbd-562d-4d20-964e-baa2454bd549",
+        "parentId": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "StudentID",
+          "types": {
+            "Partially Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false
+      },
+      {
+        "id": "4ed4fad5-ec4e-48d2-b0d1-75db91798514",
+        "parentId": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "ClubID",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "7eebbcaa-626c-4a98-8ee7-7ea8d0c43aca",
+        "type": "Entity",
+        "position": {
+          "x": -350.8117977467911,
+          "y": 441.3623842732024
+        },
+        "data": {
+          "label": "Positions",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "eaa2ef00-1b64-47d2-a42d-f7d60e74c819",
+        "parentId": "7eebbcaa-626c-4a98-8ee7-7ea8d0c43aca",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "positionID",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "1bdb49a5-6454-4e94-8c01-cd8ada188722",
+        "parentId": "7eebbcaa-626c-4a98-8ee7-7ea8d0c43aca",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "positionName",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "732fa5a9-f6cd-432c-b8c9-d71b091a4938",
+        "parentId": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "positionID",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "6f4bf260-7188-47c0-bbc3-515bc39d448c",
+        "parentId": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "information",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "type": "Entity",
+        "position": {
+          "x": -565.2228237307875,
+          "y": 179.38186654908537
+        },
+        "data": {
+          "label": "Events",
+          "type": "Weak",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "64fd6f4e-81ef-4c62-a533-28b6c3c2e999",
+        "parentId": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "EventID",
+          "types": {
+            "Unique": false,
+            "Partially Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "431706cb-ca9a-4f0f-a759-73da41f63b09",
+        "parentId": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "ClubID",
+          "types": {
+            "Unique": false,
+            "Partially Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "cff78773-a566-45ed-9dd4-9ecedeb36449",
+        "parentId": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "type": "Attribute",
+        "position": {
+          "x": 105,
+          "y": -1.2858791391047208e-14
+        },
+        "data": {
+          "label": "room",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "ac7c5f71-b761-48c5-acaa-51d6359cfb5c",
+        "parentId": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Attribute",
+        "position": {
+          "x": 74.2462120245875,
+          "y": 74.24621202458748
+        },
+        "data": {
+          "label": "budget",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "6875dc58-26c6-41f8-b3e3-0297757ce905",
+        "type": "Entity",
+        "position": {
+          "x": -582.3473712743191,
+          "y": 437.6137111140302
+        },
+        "data": {
+          "label": "EventsAtt",
+          "type": "Weak",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "48e9d667-64d2-4d7f-bee7-6db9039fdeac",
+        "parentId": "6875dc58-26c6-41f8-b3e3-0297757ce905",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "EventID",
+          "types": {
+            "Unique": false,
+            "Partially Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "36ecac5f-b0b4-449a-8d3b-85ee1d3b2d72",
+        "parentId": "6875dc58-26c6-41f8-b3e3-0297757ce905",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "CountOfMembers",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "e5127f12-fce2-4fee-8199-d78be8325547",
+        "parentId": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "type": "Attribute",
+        "position": {
+          "x": 74.2462120245875,
+          "y": 74.24621202458748
+        },
+        "data": {
+          "label": "Attendance",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "ab0e6bee-015b-456c-889e-ec456049c630",
+        "type": "Entity",
+        "position": {
+          "x": -753.0234410266617,
+          "y": 273.6414490985936
+        },
+        "data": {
+          "label": "Advisor",
+          "type": "Regular",
+          "isConnectable": false,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": true,
+        "dragging": false
+      },
+      {
+        "id": "20b2b717-0e5c-4339-a1a6-c26ad6189154",
+        "parentId": "ab0e6bee-015b-456c-889e-ec456049c630",
+        "type": "Attribute",
+        "position": {
+          "x": -6.429395695523604e-15,
+          "y": -105
+        },
+        "data": {
+          "label": "AdvisorID",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "fb26731c-e5ba-42c1-818b-a93d097e9150",
+        "parentId": "ab0e6bee-015b-456c-889e-ec456049c630",
+        "type": "Attribute",
+        "position": {
+          "x": 74.24621202458748,
+          "y": -74.24621202458749
+        },
+        "data": {
+          "label": "AdvisorName",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      {
+        "id": "42ce05a3-2567-4eaf-ab58-78491b289680",
+        "parentId": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "type": "Attribute",
+        "position": {
+          "x": 1.928818708657081e-14,
+          "y": 105
+        },
+        "data": {
+          "label": "AadvisorID",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "4e523fe3-05d8-44ef-af6e-35da5c88e5cd",
+        "type": "Attribute",
+        "source": "329b0d2b-652d-4373-8b91-0f2f2ae47f7a",
+        "target": "791fc266-7c8e-40ea-b316-fb7d701a700c"
+      },
+      {
+        "id": "7eee5b3a-67ce-4cc2-8e2e-6e4ded37a637",
+        "type": "Attribute",
+        "source": "329b0d2b-652d-4373-8b91-0f2f2ae47f7a",
+        "target": "6f806301-a941-42b7-8aa4-86a7be76716c"
+      },
+      {
+        "id": "8c5472b1-0b01-40fc-a83c-632a6361b4c7",
+        "type": "Attribute",
+        "source": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "target": "922fd0e5-3df5-4104-a236-bf239b8b76cd"
+      },
+      {
+        "id": "6555d8a7-cd9d-4f92-801f-054a6a082f4d",
+        "type": "Attribute",
+        "source": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "target": "abd3c8e1-731a-4c10-8e09-8f23539c82f9"
+      },
+      {
+        "id": "f8164b01-c417-48ea-a557-8f353c577905",
+        "type": "Attribute",
+        "source": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "target": "6db34dbd-562d-4d20-964e-baa2454bd549"
+      },
+      {
+        "id": "3cb0a8dc-d125-4efe-befd-2f5c510ee503",
+        "type": "Attribute",
+        "source": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "target": "4ed4fad5-ec4e-48d2-b0d1-75db91798514"
+      },
+      {
+        "id": "3d53d2d4-6ee8-43c6-9c7f-b127b10b8c18",
+        "type": "Attribute",
+        "source": "7eebbcaa-626c-4a98-8ee7-7ea8d0c43aca",
+        "target": "eaa2ef00-1b64-47d2-a42d-f7d60e74c819"
+      },
+      {
+        "id": "eba485a3-0ac1-478e-88af-9b251080a2d0",
+        "type": "Attribute",
+        "source": "7eebbcaa-626c-4a98-8ee7-7ea8d0c43aca",
+        "target": "1bdb49a5-6454-4e94-8c01-cd8ada188722"
+      },
+      {
+        "id": "c78a9805-172a-4b0b-97a7-5225573eaf18",
+        "type": "Attribute",
+        "source": "e2ed4288-7342-4a3a-aa2e-bcbfc9329c93",
+        "target": "732fa5a9-f6cd-432c-b8c9-d71b091a4938"
+      },
+      {
+        "id": "99033800-7d70-4b2b-b429-b771c493c882",
+        "type": "Attribute",
+        "source": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "target": "6f4bf260-7188-47c0-bbc3-515bc39d448c"
+      },
+      {
+        "id": "c7fe6fed-de0e-4225-94ea-686cf276924d",
+        "type": "Attribute",
+        "source": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "target": "64fd6f4e-81ef-4c62-a533-28b6c3c2e999"
+      },
+      {
+        "id": "24bf7d65-c3d2-48b3-93a5-b51805043f65",
+        "type": "Attribute",
+        "source": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "target": "431706cb-ca9a-4f0f-a759-73da41f63b09"
+      },
+      {
+        "id": "ee313e10-8d76-464d-b651-1e1666af6a60",
+        "type": "Attribute",
+        "source": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "target": "cff78773-a566-45ed-9dd4-9ecedeb36449"
+      },
+      {
+        "id": "e09a91c1-b27b-40a2-80ce-a1ae492df211",
+        "type": "Attribute",
+        "source": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "target": "ac7c5f71-b761-48c5-acaa-51d6359cfb5c"
+      },
+      {
+        "id": "63c43eb6-f997-4897-a72b-630219437299",
+        "type": "Attribute",
+        "source": "6875dc58-26c6-41f8-b3e3-0297757ce905",
+        "target": "48e9d667-64d2-4d7f-bee7-6db9039fdeac"
+      },
+      {
+        "id": "8aab697a-70e1-47b8-9081-d70def1db97c",
+        "type": "Attribute",
+        "source": "6875dc58-26c6-41f8-b3e3-0297757ce905",
+        "target": "36ecac5f-b0b4-449a-8d3b-85ee1d3b2d72"
+      },
+      {
+        "id": "330b5735-18b9-4f9b-8f72-81390ebeeb11",
+        "type": "Attribute",
+        "source": "5ab4549a-30d6-4bbc-8630-a0c65fa875af",
+        "target": "e5127f12-fce2-4fee-8199-d78be8325547"
+      },
+      {
+        "id": "f041e0b1-015c-4826-9c56-e40d87669cf2",
+        "type": "Attribute",
+        "source": "ab0e6bee-015b-456c-889e-ec456049c630",
+        "target": "20b2b717-0e5c-4339-a1a6-c26ad6189154"
+      },
+      {
+        "id": "9b407b87-b396-4d2c-aef8-4e827ed505ad",
+        "type": "Attribute",
+        "source": "ab0e6bee-015b-456c-889e-ec456049c630",
+        "target": "fb26731c-e5ba-42c1-818b-a93d097e9150"
+      },
+      {
+        "id": "7d8d5408-9f7a-41e9-94ec-b96d6f4ec7e0",
+        "type": "Attribute",
+        "source": "8703fc27-9ba6-4d01-b3c8-47d8093e4ce1",
+        "target": "42ce05a3-2567-4eaf-ab58-78491b289680"
+      }
+    ],
+    "viewport": {
+      "x": 1135.731854695634,
+      "y": 72.60761240854163,
+      "zoom": 1.0000000000000007
+    }
+  },
+  "name": "Student_club",
+  "folder": {
+    "name": "Lab_1",
+    "folderType": 2,
+    "parentFolder": {
+      "depth": 0,
+      "id": 47488,
+      "name": "Diagrams",
+      "folderType": 1
+    },
+    "depth": 1,
+    "id": 47495
+  },
+  "id": 40305,
+  "updatedAtTimestamp": 1758107773
+}

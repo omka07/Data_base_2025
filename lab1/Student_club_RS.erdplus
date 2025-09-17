@@ -1,0 +1,329 @@
+{
+  "diagramType": 2,
+  "data": {
+    "nodes": [
+      {
+        "id": "8989e80c-c362-4ba4-aa16-28b7f4f1249f",
+        "type": "Table",
+        "position": {
+          "x": 929.1235505114872,
+          "y": -145.73884016323444
+        },
+        "data": {
+          "label": "Students",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "90ffb9cd-de4f-424a-b54e-ab369d8dee9c",
+              "name": "StudentID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "9dbde0a5-7edb-4c21-b550-28b106fdee24",
+              "name": "StudentName",
+              "type": "VARCHAR(n)",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 75
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "182f8b3a-2eb8-416f-a5b1-dc683028a0c3",
+        "type": "Table",
+        "position": {
+          "x": 934.0383131883005,
+          "y": -29.443936713816846
+        },
+        "data": {
+          "label": "Clubs",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "f81a911b-3079-4aed-9c0a-e007af405969",
+              "name": "ClubID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "a469b142-c21c-4934-a2f1-04ee468185c5",
+              "name": "ClubName",
+              "type": "VARCHAR(n)",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "94929765-2492-4ba0-a84d-bd2b6e7aef22",
+              "name": "Information",
+              "type": "VARCHAR(n)",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "ced43f79-a51b-4729-808d-b5fe65ea62a5",
+              "name": "budget",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "bda97f0f-9a90-4f02-9646-f1efa6736f0b",
+              "name": "AdvisorID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 150
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7d119f01-25be-4953-a845-435a530261c3",
+        "type": "Table",
+        "position": {
+          "x": 672.7757468552674,
+          "y": -144.24112495105865
+        },
+        "data": {
+          "label": "Events",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "df411427-7266-4910-ad96-e0f2f5ba0c50",
+              "name": "EventID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "edfdf7f5-3c54-43a4-afe5-390482a7c1cd",
+              "name": "clubID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "2b391586-2731-4fee-9edb-ae687a9be479",
+              "name": "room",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "cd8453d9-962a-4aef-874c-44be33c271e4",
+              "name": "Attendance",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 125
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "c9c17750-ce4c-4051-b097-210dcb9eab20",
+        "type": "Table",
+        "position": {
+          "x": 671.6728822316144,
+          "y": 20.471496995311938
+        },
+        "data": {
+          "label": "Advisor",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "3687f562-ed4d-4eee-a39f-cd96f3b3f57d",
+              "name": "AdvisorID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "7a3a2330-c5d4-4eb4-85a0-e74391d09ff3",
+              "name": "AdvisorName",
+              "type": "VARCHAR(n)",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false,
+          "isFactTable": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 75
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "26f8b1f1-c096-4ba5-a1b5-be41f8ba9f19",
+        "type": "Table",
+        "position": {
+          "x": 671.774107812189,
+          "y": 114.70431536463518
+        },
+        "data": {
+          "label": "EventAtt",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "4e14797f-1022-4788-80e9-a1de94a19b46",
+              "name": "EventID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "b779dea9-3773-4fd7-84ad-41dcdafa8598",
+              "name": "CountOfMembers",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 75
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "144746ff-74ce-466b-9ad2-27c274b4a8d3",
+        "type": "Table",
+        "position": {
+          "x": 929.2880901273799,
+          "y": 133.30422478502948
+        },
+        "data": {
+          "label": "Positions",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "83049efa-5399-4f62-bf56-ec86de1427c1",
+              "name": "positionID",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "dc298a40-4868-4725-a66e-c76f9b2e9413",
+              "name": "positionName",
+              "type": "VARCHAR(n)",
+              "position": 0
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 75
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "281ed2f1-b25f-443c-b4b6-0baff1c487ed",
+        "type": "Table",
+        "position": {
+          "x": 668.391550429941,
+          "y": 216.2071687221271
+        },
+        "data": {
+          "label": "ClubMembership",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "640bb2c7-46be-4797-afe5-91ee87ffcf91",
+              "name": "StudentID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "d3bc102d-b893-42af-886e-e500a15891ce",
+              "name": "ClubID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "702097b6-ce0f-4868-a42b-a6c0a978bdae",
+              "name": "positionID",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 100
+        },
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [],
+    "viewport": {
+      "x": -187.23063179507187,
+      "y": 182.83428584847854,
+      "zoom": 0.6597539553864472
+    }
+  },
+  "name": "Student_club",
+  "folder": {
+    "name": "Lab_1",
+    "folderType": 2,
+    "parentFolder": {
+      "depth": 0,
+      "id": 47488,
+      "name": "Diagrams",
+      "folderType": 1
+    },
+    "depth": 1,
+    "id": 47495
+  },
+  "id": 40374,
+  "updatedAtTimestamp": 1758108317
+}
